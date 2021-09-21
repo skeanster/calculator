@@ -13,10 +13,19 @@
     background-color: rgb(238, 238, 238);
     flex-direction: column;
     align-items: flex-end;
+    overflow: hidden;
+}
+
+.topScreen {
+    height:20px;
+    overflow: hidden;
+    margin: 5px;
 }
 
 .bottomScreen {
     height:20px;
+    overflow: hidden;
+    margin: 5px;
 }
 
 .clearDelete {
