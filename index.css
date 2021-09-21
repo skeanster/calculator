@@ -1,0 +1,41 @@
+.calcContainer {
+    border: 2px solid black;
+    width: 400px;
+    border-radius: 15px;
+    background-color: rgb(206, 206, 206);
+}
+
+.calcScreen {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(238, 238, 238);
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bottomScreen {
+    height:20px;
+}
+
+.clearDelete {
+    display: flex;
+    justify-content: center;
+}
+
+.calcButtons {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.functionBtns {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    cursor: pointer;
+}
