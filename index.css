@@ -53,8 +53,8 @@ button {
 
 .calcContainer {
     background-color: white;
-    width: 400px;
-    position: fixed;
+    width: 500px;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -63,7 +63,7 @@ button {
 
 .calcScreen {
     display: flex;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     border: 1px solid black;
     background-color: rgb(255, 255, 255);
@@ -107,11 +107,12 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .functionBtns {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     padding: 20px;
     cursor: pointer;
     border: none;
@@ -125,8 +126,8 @@ button {
 }
 
 .clearBtn {
-    width: 140px;
-    height: 70px;
+    width: 180px;
+    height: 80px;
     margin: 5px;
     cursor: pointer;
     border: none;
