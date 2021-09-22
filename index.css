@@ -44,6 +44,7 @@ button {
     border-right: 0;
     border-left: 0;
     position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .mainContainer {
@@ -59,6 +60,8 @@ button {
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
 }
 
 .calcScreen {
@@ -118,6 +121,7 @@ button {
     border: none;
     background-color: rgb(197, 231, 184);
     border-radius: 10px;
+    border: 2px solid rgb(197, 231, 184);
 
 }
 
